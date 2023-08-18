@@ -1,16 +1,19 @@
-import React from "react";
-import Header from "../components/Header";
-import Footer from '../components/Footer';
-import Main from '../components/Main';
 
-const JavaScript = () => {
+
+import Header from '../comp/header';
+import Footer from '../comp/Footer';
+
+
+const Javascript = () => {
   return (
     <>
-<Header/>
-<Main/>
-<Footer/>
-    </>
+    <Header />
+    <main>
+    Javascript Page
+    </main>
+    <Footer />
+  </>
   );
-};
+}
 
-export default JavaScript;
+export default Javascript;

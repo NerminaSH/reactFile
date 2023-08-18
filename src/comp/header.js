@@ -1,17 +1,16 @@
-import React from 'react';
+import React from "react";
 
 const Header = () => {
   return (
-  
-  <div>
-        <header className="hide-when-mobile">
-        <h1>Courses 4 Arab</h1>
+    <div>
+      <header className="hide-when-mobile">
+        <h1>c4a.dev</h1>
         <ul className="flex">
           <li className="main-list">
-            <a className="main-link" href="#">
+            <a className="main-link" href="/html">
               HTML
             </a>
-            <ul className="sub-ul">
+            {/* <ul className="sub-ul">
               <li>
                 <a href="">Full Course</a>
               </li>
@@ -21,13 +20,13 @@ const Header = () => {
               <li>
                 <a href="">learn in 1h</a>
               </li>
-            </ul>
+            </ul> */}
           </li>
           <li className="main-list">
-            <a className="main-link" href="#">
+            <a className="main-link" href="/css">
               CSS
             </a>
-            <ul className="sub-ul">
+            {/* <ul className="sub-ul">
               <li>
                 <a href="">Full Course</a>
               </li>
@@ -48,23 +47,23 @@ const Header = () => {
                   </li>
                 </ul>
               </li>
-            </ul>
+            </ul> */}
           </li>
           <li className="main-list">
-            <a className="main-link" href="#">
+            <a className="main-link" href="/javascript">
               JavaScript
             </a>
-            <ul className="sub-ul sub-of-js">
+            {/* <ul className="sub-ul sub-of-js">
               <li>
                 <a href="">coming soon🔥</a>
               </li>
-            </ul>
+            </ul> */}
           </li>
         </ul>
       </header>
 
-      <header style={{ backgroundColor: "green" }} className="show-when-mobile">
-        <h1>Courses 4 Arab</h1>
+      {/* <header style={{ backgroundColor: "red" }} className="show-when-mobile">
+        <h1>c4a.dev **</h1>
         <label className="absolute" htmlFor="burger">
           <i className="fas fa-bars" />
         </label>
@@ -130,10 +129,9 @@ const Header = () => {
             </ul>
           </div>
         </div>
-      </header>
-  </div>
-  
+      </header> */}
+    </div>
   );
-}
+};
 
 export default Header;

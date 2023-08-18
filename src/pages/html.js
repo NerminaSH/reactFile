@@ -1,16 +1,20 @@
-import React from "react";
-import Header from "../components/Header";
-import Footer from '../components/Footer';
-import Main from '../components/Main';
+
+
+
+import Header from '../comp/header';
+import Footer from '../comp/Footer';
+
 
 const Html = () => {
   return (
     <>
-<Header/>
-<Main/>
-<Footer/>
-    </>
+    <Header />
+    <main>
+      HTML Page
+    </main>
+    <Footer />
+  </>
   );
-};
+}
 
 export default Html;
